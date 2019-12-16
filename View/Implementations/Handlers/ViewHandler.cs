@@ -140,7 +140,7 @@ namespace View.Implementations.Handlers
                     FirstOrDefault().GridCellColor = new SolidColorBrush(Colors.SteelBlue);
             gridOffsetY = GetGridOffsetValue(Robot.Position.Y);
             TableTopViewModel.TableTopViewComponents.Where(x => x.Row == gridOffsetY && x.Column == Robot.Position.X).
-                    FirstOrDefault().GridCellColor = new SolidColorBrush(Colors.Green);
+                    FirstOrDefault().GridCellColor = new SolidColorBrush(Colors.Yellow);
         }
 
         /// <summary>

@@ -107,7 +107,7 @@ namespace ToyRobotSimulatorTests.View
 
             //Assert
             Assert.AreEqual(Colors.SteelBlue, previousGridCellTest.GridCellColor.Color);
-            Assert.AreEqual(Colors.Green, nextCellTest.GridCellColor.Color);
+            Assert.AreEqual(Colors.Yellow, nextCellTest.GridCellColor.Color);
         }
 
         [TestMethod]
@@ -124,7 +124,7 @@ namespace ToyRobotSimulatorTests.View
 
             //Assert
             Assert.AreEqual(Colors.SteelBlue, previousGridCellTest.GridCellColor.Color);
-            Assert.AreEqual(Colors.Green, nextCellTest.GridCellColor.Color);
+            Assert.AreEqual(Colors.Yellow, nextCellTest.GridCellColor.Color);
         }
 
         [TestMethod]

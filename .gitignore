@@ -5,3 +5,11 @@
 /.vs
 /View/.vs
 /README.txt
+/DTO/bin/Debug
+/DTO/obj
+/Service/bin/Debug
+/Service/obj
+/ToyRobotSimulatorTests/bin/Debug
+/ToyRobotSimulatorTests/obj
+/View/bin/Debug
+/View/obj
